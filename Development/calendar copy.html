@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Complatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <link rel="stylesheet" href="datepickk.min.css">
+    <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+
+    <div id="datepicker">
+        <script src="datepickk.min.js"></script>
+        <script>
+            var highlight = {
+                start: new date(2015,6,13),
+                end: new Date(2015,6,19),
+                backgroundColor: '#3faa56',
+                color:'#fff',
+                legend: 'CSS Conf.'
+            };
+
+            var hightlight2 ={
+                dates: [
+                    {
+                        start: new date(2015,6,6),
+                        end: new Date(2015,6,7)
+                    },
+                    {
+                        start: new date(2015,6,22),
+                        end: new Date(2015,6,23)
+                    }
+                ],
+                backgroundColor: '#e99c00',
+                color:'#fffffff',
+                legend: 'Holidays'
+            };
+
+            var calender = new Datepickk({
+                container: document.querySelector('#datepicker'),
+                inline: true,
+                range:true,
+                highlight: [highlight,highlight2]
+            });
+
+            datepicker.setDate = new Date(2015,6,1);
+        </script>
+    </div>
+
+</body>
+</html>

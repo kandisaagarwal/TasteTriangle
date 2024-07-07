@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url(https://www.radzen.com/documentation/login-background.png);
+    background-size:cover;
+}
+
+.login_form{
+    width:350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+    height: auto;
+}
+
+.login_form h1{
+    font-size: 40px;
+    margin: 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login_form p{
+    font-size:20px;
+    margin: 15px 0;
+}
+.Forgot{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.login_form input{
+    font: size 16px;
+     width:100%;
+     padding: 15px 10px;
+     border: 0;
+     outline:none;
+     border-radius:5px;
+}
+
+.login_form button{
+    font-size:18px;
+    font-weight: bold;
+    margin:20px 0;
+    padding: 10px 15px;
+    width:50%;
+    border-radius: 5px;
+}
+.login_form button:hover{
+    background: #8adef3;
+}
+
+.Sign-up{
+    margin-top: 20px;
+    font-size:18px;
+}
+span{
+    margin-top: 20px;
+    font-size:18px;
+    color:#00bcd4 
+}
+a{
+    color:#00bcd4
+}
+
+.signup-form{
+    width: 350px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+    height: auto;
+}
+
+.signup-form h1 {
+    font-size: 40px;
+    margin: 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.signup-form p{
+    font-size:20px;
+    margin: 15px 0;
+}
+.Forgot{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.signup-form input{
+    font: size 16px;
+     width:100%;
+     padding: 15px 10px;
+     border: 0;
+     outline:none;
+     border-radius:5px;
+}
+
+.signup-form button{
+    font-size:18px;
+    font-weight: bold;
+    margin:20px 0;
+    padding: 10px 15px;
+    width:50%;
+    border-radius: 5px;
+}
+.signup-form button:hover{
+    background: #8adef3;
+}
+
+.Login{
+    margin-top: 20px;
+    font-size:18px;
+}
+span{
+    margin-top: 20px;
+    font-size:18px;
+    color:#00bcd4 
+}
+a{
+    color:#00bcd4
+}
